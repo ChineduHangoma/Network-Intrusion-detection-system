@@ -14,7 +14,7 @@ watchdog
 # PyYAML for configuration management
 pyyaml
 
-# Requests for handling network requests (optional, if required)
+# Requests for handling network requests
 requests
 
 # Schedule for implementing heartbeat functionality
