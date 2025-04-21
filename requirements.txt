@@ -8,7 +8,7 @@ numpy
 # Scapy for network traffic analysis
 scapy
 
-# Watchdog for monitoring file changes (if needed)
+# Watchdog for monitoring file changes
 watchdog
 
 # PyYAML for configuration management
