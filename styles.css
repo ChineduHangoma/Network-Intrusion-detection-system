@@ -1,0 +1,139 @@
+/* Base Styles */
+.main {
+    background-color: #f5f5f5;
+}
+.stApp {
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+.header {
+    color: #2c5aa0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar .sidebar-content {
+    background-color: #2c5aa0;
+    color: white;
+}
+
+/* Button Styles */
+.stButton>button {
+    background-color: #2c5aa0;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #1a3a6e;
+}
+.stButton>button:hover {
+    background-color: #1a3a6e;
+    color: white;
+}
+
+/* Alert Styles */
+.stAlert {
+    border-radius: 4px;
+}
+
+/* Log Entry Styles */
+.log-entry {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #2c5aa0;
+    margin: 5px 0;
+}
+
+/* ===== ENHANCED DASHBOARD STYLES ===== */
+/* Metric Cards */
+[data-testid="stMetric"] {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c5aa0;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Card Containers */
+[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+.stDataFrame {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Status Indicators */
+.status-success {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.status-warning {
+    color: #FF9800;
+    font-weight: bold;
+}
+
+.status-danger {
+    color: #FF5252;
+    font-weight: bold;
+}
+
+/* Chart Containers */
+.plotly-chart, .stPlotlyChart {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    padding: 10px;
+}
+
+/* Progress Bars */
+.stProgress > div > div > div {
+    background-color: #2c5aa0;
+}
+
+/* Custom Colors for Dashboard Elements */
+.dashboard-critical {
+    color: #FF5252;
+}
+
+.dashboard-high {
+    color: #FF9800;
+}
+
+.dashboard-medium {
+    color: #FFEB3B;
+}
+
+.dashboard-low {
+    color: #8BC34A;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    [data-testid="stMetric"] {
+        padding: 10px;
+    }
+
+    [data-testid="stMetricValue"] {
+        font-size: 20px;
+    }
+}
